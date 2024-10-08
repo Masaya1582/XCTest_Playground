@@ -1,5 +1,7 @@
 # XCTest Playground 🛠️
 
+<img src="https://github.com/user-attachments/assets/8b4fd5e6-7ac2-46da-b715-6935d95dd8c9" width="300" /> 
+
 このリポジトリは、XCTestの基本的な概念を実際にコードを書きながら学ぶためのプレイグラウンドです。XCTestは、iOS開発においてユニットテストやUIテストを実行するためのフレームワークです。本リポジトリでは、XCTestを効果的に使うためのサンプルコードやガイドを提供しています。
 
 ## 目次 📚
