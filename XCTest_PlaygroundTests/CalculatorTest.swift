@@ -17,7 +17,7 @@ class CalculatorTests: XCTestCase {
         self.calculator = Calculator()
     }
 
-    override class func tearDown() {
+    override func tearDown() {
         super.tearDown()
     }
 
