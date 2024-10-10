@@ -15,6 +15,10 @@
 		4014732D2CB5677600FA494B /* XCTest_PlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4014732C2CB5677600FA494B /* XCTest_PlaygroundUITests.swift */; };
 		4014732F2CB5677600FA494B /* XCTest_PlaygroundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4014732E2CB5677600FA494B /* XCTest_PlaygroundUITestsLaunchTests.swift */; };
 		401473422CB56C9500FA494B /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401473412CB56C9500FA494B /* Calculator.swift */; };
+		40D3BAA72CB773CA00DC4BE4 /* GithubRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D3BAA62CB773CA00DC4BE4 /* GithubRepository.swift */; };
+		40D3BAA92CB7740B00DC4BE4 /* GithubClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D3BAA82CB7740B00DC4BE4 /* GithubClient.swift */; };
+		40D3BAAB2CB774F300DC4BE4 /* GithubRepositoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D3BAAA2CB774F300DC4BE4 /* GithubRepositoryManager.swift */; };
+		40D3BAAD2CB776EE00DC4BE4 /* GithubRepositoryManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D3BAAC2CB776EE00DC4BE4 /* GithubRepositoryManagerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,10 @@
 		4014732C2CB5677600FA494B /* XCTest_PlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTest_PlaygroundUITests.swift; sourceTree = "<group>"; };
 		4014732E2CB5677600FA494B /* XCTest_PlaygroundUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTest_PlaygroundUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		401473412CB56C9500FA494B /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		40D3BAA62CB773CA00DC4BE4 /* GithubRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubRepository.swift; sourceTree = "<group>"; };
+		40D3BAA82CB7740B00DC4BE4 /* GithubClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubClient.swift; sourceTree = "<group>"; };
+		40D3BAAA2CB774F300DC4BE4 /* GithubRepositoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubRepositoryManager.swift; sourceTree = "<group>"; };
+		40D3BAAC2CB776EE00DC4BE4 /* GithubRepositoryManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubRepositoryManagerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				401473222CB5677600FA494B /* CalculatorTest.swift */,
+				40D3BAAC2CB776EE00DC4BE4 /* GithubRepositoryManagerTests.swift */,
 			);
 			path = XCTest_PlaygroundTests;
 			sourceTree = "<group>";
@@ -134,6 +143,9 @@
 			isa = PBXGroup;
 			children = (
 				401473412CB56C9500FA494B /* Calculator.swift */,
+				40D3BAA62CB773CA00DC4BE4 /* GithubRepository.swift */,
+				40D3BAA82CB7740B00DC4BE4 /* GithubClient.swift */,
+				40D3BAAA2CB774F300DC4BE4 /* GithubRepositoryManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -276,7 +288,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40D3BAA72CB773CA00DC4BE4 /* GithubRepository.swift in Sources */,
 				401473142CB5677400FA494B /* ContentView.swift in Sources */,
+				40D3BAAB2CB774F300DC4BE4 /* GithubRepositoryManager.swift in Sources */,
+				40D3BAA92CB7740B00DC4BE4 /* GithubClient.swift in Sources */,
 				401473122CB5677400FA494B /* XCTest_PlaygroundApp.swift in Sources */,
 				401473422CB56C9500FA494B /* Calculator.swift in Sources */,
 			);
@@ -286,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40D3BAAD2CB776EE00DC4BE4 /* GithubRepositoryManagerTests.swift in Sources */,
 				401473232CB5677600FA494B /* CalculatorTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
