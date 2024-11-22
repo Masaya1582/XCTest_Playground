@@ -15,6 +15,7 @@
 		4014732D2CB5677600FA494B /* XCTest_PlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4014732C2CB5677600FA494B /* XCTest_PlaygroundUITests.swift */; };
 		4014732F2CB5677600FA494B /* XCTest_PlaygroundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4014732E2CB5677600FA494B /* XCTest_PlaygroundUITestsLaunchTests.swift */; };
 		401473422CB56C9500FA494B /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401473412CB56C9500FA494B /* Calculator.swift */; };
+		401473442CB56EF100FA494B /* BasicAssertionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401473432CB56EF100FA494B /* BasicAssertionTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		4014732C2CB5677600FA494B /* XCTest_PlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTest_PlaygroundUITests.swift; sourceTree = "<group>"; };
 		4014732E2CB5677600FA494B /* XCTest_PlaygroundUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTest_PlaygroundUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		401473412CB56C9500FA494B /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		401473432CB56EF100FA494B /* BasicAssertionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAssertionTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				401473222CB5677600FA494B /* CalculatorTest.swift */,
+				401473432CB56EF100FA494B /* BasicAssertionTest.swift */,
 			);
 			path = XCTest_PlaygroundTests;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				401473442CB56EF100FA494B /* BasicAssertionTest.swift in Sources */,
 				401473232CB5677600FA494B /* CalculatorTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
